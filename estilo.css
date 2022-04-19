@@ -1,0 +1,26 @@
+p {
+    color:  red;
+}
+
+p{
+    color:#FF0000;
+}
+
+p{
+    color:rgb(255, 0, 0)
+}
+
+p{
+    color:rgba(255, 0, 0, 1)
+}
+
+
+/* estilo lista */
+
+ul {
+    background-color: blue;
+    color: yellowgreen;
+}
+
+
+
