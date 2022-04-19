@@ -1,0 +1,21 @@
+div { 
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+span {
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h1 {
+    /*font-size: 100px;*/
+    /*font-size: 50%;*/
+    font-size: 3rem;
+}
+
+html{
+    font-size: 100px;
+}
