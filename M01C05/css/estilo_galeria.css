@@ -1,0 +1,29 @@
+
+html{
+    background-color: black;
+}
+.contenedor{
+    width:1200px;
+    margin: 0 auto;
+}
+.galeria{
+    
+}
+.foto{
+    width: 300px;    
+    border-style: solid;    
+    border-color: white;
+    border-width: 5px;
+    border-bottom-width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow:8px 8px 12px grey;
+    /* border-top-left-radius: 10px; */
+    border-radius: 0 10px 0 10px;    
+    
+}   
+.foto:hover{
+    box-shadow:8px 8px 12px red;
+    filter: grayscale(100%);
+    transition:1s;
+}

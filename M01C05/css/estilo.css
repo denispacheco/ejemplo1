@@ -1,0 +1,34 @@
+* {
+    /* border-width: 5px;
+    border-color: red;
+    border-style: dashed; */
+}
+
+/* selector anidado (sin importar donde) */
+div h3 {
+    color: orange;
+}
+
+/* selector anidado de tres niveles */
+ul li a {
+   color: white; 
+   background-color: black;
+   border-color: red;
+   border-top-width: 1px;
+   border-style: solid;
+}
+
+/* definicion general de estilo para links */
+a{
+    background-color: blue;
+}
+/* selector anidado (sólo hijo directo) */
+div > p {
+    color:chartreuse;
+}
+/* selector agrupado */
+a, p, ol {
+   border-color: blue;
+   border-top-width: 1px;
+   border-style: solid;
+}
