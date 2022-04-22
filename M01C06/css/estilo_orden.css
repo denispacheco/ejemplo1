@@ -1,0 +1,20 @@
+.contenedor,.contenedor_flex{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.elemento{
+    margin: 10px;
+    width: 300px;
+    background-color: brown;
+    color: white;
+}
+
+.float{
+    float: left;
+}
+
+.contenedor_flex{
+    display: flex;
+    flex-direction: column-reverse;
+}

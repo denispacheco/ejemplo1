@@ -1,0 +1,60 @@
+.contenedor{  
+   border:2px black solid;
+   width: 80%;
+   margin: 20px auto;
+}
+.block,.inline,.flex,.flex_fijo{
+    background-color: brown;
+    width: 300px;
+    margin: 20px;
+    color:white;
+    text-align: center;
+}
+
+.block{
+display: block;
+}
+.inline{
+    float: left;
+}
+
+.contenedor_flex{
+    clear: both;
+    display: flex; 
+    flex-direction: row;   
+}
+.contenedor_flex_fijo{
+    display: flex; 
+    flex-direction: row;   
+    overflow: hidden;
+}
+.contenedor_flex_adaptable{
+    display: flex; 
+    flex-direction: row;   
+    flex-wrap: wrap;
+}
+.contenedor_flex_reverso{
+    display:flex; 
+    flex-direction: row-reverse;   
+    flex-wrap: wrap;
+}
+
+
+.flex{
+  
+}
+
+.flex_fijo{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    text-align: center;
+
+}
+
+/*links:
+https://lenguajecss.com/css/introduccion/que-es-css/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/#es
+*/
+

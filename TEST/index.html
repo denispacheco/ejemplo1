@@ -1,38 +1,57 @@
-<form action="#" method="get">
-    <label for="texto">texto!!!</label>
-    <label for="texto2">texto2</label>
-
-    <input type="text" name="texto1" placeholder="ingrese un texto" >
-    <input type="text" name="texto" placeholder="ingrese un texto" id="texto" >
-    <select name="tipo" id="tipo">
-        <option value="uno">opcion 1</option>
-        <option  value="dos">opcion 2</option>
-        <option  value="tres">opcion 3</option>
-    </select>
-    <label>opciones</label>
-    <input type="radio" name="seleccion" value="r1">
-    <input type="radio" name="seleccion" value="r2">
-    <input type="radio" name="seleccion" value="r3">
-
-    <label>aceptar?</label>
-    <input type="checkbox" name="check" value="chk1" >
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Block</h1>
+    <div class="contenedor ">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+        <div class="block">4</div>
+    </div>
     <br>
-    <textarea name="textogrande" id="textogrande" cols="30" rows="10" placeholder="ingrese un texto"></textarea>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0_SXG4X4uVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <input type="submit">
-</form>
-
-<h1><a href="#fin" target="_blank">  ir al final</a></h1>
-<br>
-<br>
-<br>
-<br>
-<br> <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br>
-<h2 id="fin">este es el final</h2>
+    <h1>Inline con float</h1>
+    <div class="contenedor">
+        <div class="inline">1</div>
+        <div class="inline">2</div>
+        <div class="inline">3</div>
+        <div class="inline">4</div>
+    </div>
+    <br>
+    <h1>Inline adaptable con flex</h1>
+    <div class="contenedor contenedor_flex ">
+        <div class="flex">1</div>
+        <div class="flex">2</div>
+        <div class="flex">3</div>
+        <div class="flex">4</div>
+    </div>
+    <br>
+    <h1>inline fijo con flex</h1>
+    <div class="contenedor contenedor_flex_fijo ">
+        <div class="flex_fijo">1</div>
+        <div class="flex_fijo">2</div>
+        <div class="flex_fijo">3</div>
+        <div class="flex_fijo">4</div>
+    </div>
+    <br>
+    <h1>flex adaptable de fila a columna</h1>
+    <div class="contenedor contenedor_flex_adaptable">
+        <div class="flex_fijo">1</div>
+        <div class="flex_fijo">2</div>
+        <div class="flex_fijo">3</div>
+        <div class="flex_fijo">4</div>
+    </div>
+    <br>
+    <h1>flex reverso</h1>
+    <div class="contenedor contenedor_flex_reverso">
+        <div class="flex_fijo">1</div>
+        <div class="flex_fijo">2</div>        
+    </div>
+</body>
+</html>
